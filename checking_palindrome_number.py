@@ -5,4 +5,6 @@ def check_palindrome(number):
 #convert number to string then user input number
 number = int(input("Enter a number: "))
 #check if the user input is palindrome number if it is then print
+if check_palindrome(number):
+    print(f"{number} is a palindrome number.")
 #if not print not a palindrome number
