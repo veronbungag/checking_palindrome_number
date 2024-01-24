@@ -8,3 +8,5 @@ number = int(input("Enter a number: "))
 if check_palindrome(number):
     print(f"{number} is a palindrome number.")
 #if not print not a palindrome number
+else:
+    print(f"{number} is not a palindrome number.")
